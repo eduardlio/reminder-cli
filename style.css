@@ -1,0 +1,41 @@
+*{
+   font-family: sans-serif;
+}
+html{
+   background-color: #eee;
+}
+body{
+   width: 50%;
+   margin: 50px auto;
+   height: auto;
+   text-align: center;
+} 
+
+p{
+    margin: 30px auto;
+    padding: 16px;
+    padding-left: 32px;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .25s;
+    box-shadow: 0px 3px 5px 0px rgba(31, 31, 56, 0.5);
+}
+p:hover{
+    transition: all .25s;
+    box-shadow: 0px 15px 25px 0px rgba(31, 31, 56, 0.2);
+}
+
+.light-hover{
+    box-shadow: 0px 3px 5px 0px rgba(31, 31, 56, 0.4);
+}
+.light-hover:hover{
+    box-shadow: 0px 15px 25px 0px rgba(31, 31, 56, 0.2);
+    transform: translateY(-5px);
+}
+.light-hover:hover *{
+    transition: .2s;
+    color: rgb(222, 138, 226);
+}
+
